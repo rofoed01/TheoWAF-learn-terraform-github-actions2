@@ -1,6 +1,6 @@
 resource "aws_launch_template" "app1_LT" {
   name_prefix   = "app1_LT"
-  image_id      = "ami-07c5ecd8498c59db5"  
+  image_id      = "ami-07c5ecd8498c59db5"
   instance_type = "t2.micro"
 
   key_name = "MyLinuxBox"

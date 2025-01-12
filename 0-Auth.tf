@@ -3,16 +3,16 @@ provider "aws" {
 }
 
 terraform {
-    
-    cloud { 
-    
-    organization = "MookieLovesBunda" 
 
-    workspaces { 
-      name = "MilkOfMagnesia" 
-    } 
-  } 
-  
+  cloud {
+
+    organization = "MookieLovesBunda"
+
+    workspaces {
+      name = "MilkOfMagnesia"
+    }
+  }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
